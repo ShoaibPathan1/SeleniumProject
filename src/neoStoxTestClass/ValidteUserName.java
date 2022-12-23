@@ -32,7 +32,10 @@ public class ValidteUserName extends Base {
 		pwd= new NeoStoxPasswordPage(driver);
 		first= new NeoStoxBasePage(driver);
 		home= new NeoStoxHomePage(driver);
-		}
+		
+	
+	
+	}
 	@BeforeMethod
 	public void loginToStox() throws EncryptedDocumentException, IOException, InterruptedException
 	{
